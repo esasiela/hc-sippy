@@ -124,7 +124,7 @@ void setup() {
   Serial.print(F("  sipTarget: "));
   Serial.println(sipTarget);
 
-  //EEPROM.write(EEPROM_REMINDER_MINUTES, 1);
+  //EEPROM.write(EEPROM_REMINDER_MINUTES, 10);
   reminderMillis = ((unsigned long)EEPROM.read(EEPROM_REMINDER_MINUTES)) * 60UL * 1000UL;
   Serial.print(F("  reminderMinutes: "));
   Serial.println(EEPROM.read(EEPROM_REMINDER_MINUTES));
