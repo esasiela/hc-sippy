@@ -6484,8 +6484,8 @@ Source: http://www.osram.convergy.de/</description>
 <part name="SW_SIP" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE"/>
 <part name="SW_RST" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="EVQ-PE"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="akstudios-adafruit" deviceset="R-US_" device="0309/12" value="1K"/>
-<part name="R2" library="akstudios-adafruit" deviceset="R-US_" device="0309/12" value="1K"/>
+<part name="R1" library="akstudios-adafruit" deviceset="R-US_" device="0309/12" value="1.5K"/>
+<part name="R2" library="akstudios-adafruit" deviceset="R-US_" device="0309/12" value="1.5K"/>
 <part name="LED_RST" library="akstudios-adafruit" deviceset="LED" device="5MM"/>
 <part name="LED_SIP" library="akstudios-adafruit" deviceset="LED" device="5MM"/>
 <part name="R3" library="akstudios-adafruit" deviceset="R-US_" device="0309/12" value="4.7M"/>
